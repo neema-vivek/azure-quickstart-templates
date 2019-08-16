@@ -17,9 +17,6 @@
     "subnetId": {
       "type": "string"
     },
-    "nsgId": {
-      "type": "string"
-    },
     "storageAccountName": {
       "type": "string"
     }
@@ -60,10 +57,7 @@
               }
             }
           }
-        ],
-        "networkSecurityGroup": {
-          "id": "[parameters('nsgId')]"
-        }
+        ]
       }
     },
     {
